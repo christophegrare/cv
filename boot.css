@@ -1,0 +1,70 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #3B3B0B;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+body{
+  padding-top: 15px;
+
+}
+
+[class*="col-"], footer {
+  color: #F5F576;
+  text-align: center;
+  list-style-type: none;
+}
+
+
+.navbar {
+  background-color: #59590B;
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 10px;
+  border: 10px solid red;
+  border-color: #7EEB10;
+  font-size: 22px;
+}
+.formation{
+  border: 12px solid black;
+  padding: 15px;
+  overflow: auto;
+  background-color: #3B3B2C
+}
+.skill{
+  border: 10px dashed blue;
+  padding: 15px;
+  background-color: #59590B;
+  color: #F5F576;
+  font-size: 22px;
+}
+.experience{
+  border: 10px dashed #6B0D5D;
+  padding: 15px;
+  background-color: #59590B;
+  color: #F5F576;
+  font-size: 22px;
+}
+.leisure{
+  border: 12px solid #F0059A;
+  padding: 15px;
+  overflow: auto;
+  background-color: #AF3BD9;
+  font-size: 24px;
+}
+.liens{
+  padding: 15px;
+  border: 10px dashed #220045;
+  background-color: #3B3B2C;
+  color: #F5F576;
+}
+.liens :hover{
+  color: #7EEB10;
+}
