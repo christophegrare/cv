@@ -26,19 +26,23 @@ body{
 .navbar {
   background-color: #59590B;
   position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  border: 10px solid red;
+  display: block;
+  padding: 10px 15px;
   border-color: #7EEB10;
-  font-size: 22px;
+  
+  margin-top: 20px;
+  font-size: 18px;
 }
+
 .formation{
+  margin-top: 20px;
   border: 12px solid black;
   padding: 15px;
   overflow: auto;
   background-color: #3B3B2C
 }
 .skill{
+  margin-top: 20px;
   border: 10px dashed blue;
   padding: 15px;
   background-color: #59590B;
@@ -46,6 +50,7 @@ body{
   font-size: 22px;
 }
 .experience{
+  margin-top: 20px;
   border: 10px dashed #6B0D5D;
   padding: 15px;
   background-color: #59590B;
@@ -53,6 +58,7 @@ body{
   font-size: 22px;
 }
 .leisure{
+  margin-top: 20px;
   border: 12px solid #F0059A;
   padding: 15px;
   overflow: auto;
@@ -60,11 +66,12 @@ body{
   font-size: 24px;
 }
 .liens{
+  margin-top: 20px;
   padding: 15px;
   border: 10px dashed #220045;
   background-color: #3B3B2C;
   color: #F5F576;
 }
-.liens :hover{
+a:hover{
   color: #7EEB10;
 }
